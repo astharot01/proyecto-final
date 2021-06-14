@@ -194,7 +194,31 @@ footer{
 
 .sorbete{
 	
-	display:block;
+display:block;
 margin:auto;
 	
+}
+
+.textoPaletas{
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Paletas{
+	padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+	margin-left: -10px;
+    margin-right: -10px;
+}
+
+#N{
+	
+	position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+	margin-left: 100px;
+
 }
