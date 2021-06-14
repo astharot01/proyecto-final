@@ -180,8 +180,8 @@ header nav ul li .caret {
 
 footer{
 	background-color: black;
-    color: white;
-    position: absolute;
+    color: black;
+    position: relative;
     bottom: 0;
     width:100%;
 }
