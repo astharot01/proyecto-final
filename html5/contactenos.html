@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Heladera Los Pinoles</title>
-	<link rel="icon" href="../imagenes/favicon.png" type="image/png" />
+    <link rel="icon" href="../imagenes/favicon.png" type="image/png" />
 	<link rel="stylesheet" type="text/css" href="../css/index.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -32,27 +32,30 @@
 			</nav>
 		</header>
         <!--Seccion de la pagina -->
-        <table class="tablainicio">
+        <table class="tablainicio" style="margin-top: 20px;">
             <td>
-                <div class="card"  style="border: none;" >
-                    <img src="../imagenes/mision.png" width="200px" height="200px" class="sorbete">
-                    <div class="card-body">
-                        <h5 class="card-title">Misión</h5>
-                        <p class="card-text">Complacer el paladar de todos nuestros clientes y ofrecerles un buen servicio con mucha calidad y hechas de fruta natural para que nuestro cliente se encuentre a gusto con nuestros productos.</p>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div class="card" style="border: none;">
-                    <img src="../imagenes/vision.png" width="200px" height="200px" class="sorbete">
-                    <div class="card-body">
-                        <h5 class="card-title">Visión</h5>
-                        <p class="card-text">Mantener altos niveles de productividad, calidad y también poder expandirnos y darnos a conocer en diferentes ciudades de nuestro país gracias a nuestros productos y nuestro buen servicio.</p>
-                    </div>
-                </div>
+                <form action="mailto:direccion@correo.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="nombre">
+                      </div><br>
+                      <div class="form-group">
+                          <label for="number">Numero:</label><br>
+                        <input type="tel" class="form-control" id="number" placeholder="Ingrese su numero" name="number" pattern="\([0-8]{3}\) [0-8]{3}[ -]">
+                      </div><br>
+                    <div class="form-group">
+                        <label for="email">Correo:</label><br>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="email">
+                      </div><br>
+                      <div class="form-group">
+                        <label for="nombre">Comentario:</label><br>
+                        <textarea name="comentario" id="comentario" cols="30" rows="5"></textarea>
+                      </div>
+                      <input class="btn btn-primary" type="submit">
+                </form>
             </td>
         </table>
-		<footer class="col-12">
+		<!-- <footer class="col-12">
 			<div id="footer1" class="col-12">
 				Integrantes: <br>
 				Alexia Guissel Lopez Flores<br>
@@ -68,7 +71,7 @@
 				<a target="_blank" href="https://sv.linkedin.com/"><img src="../imagenes/link.png"></a>
 				<a target="_blank" href="https://www.instagram.com/?hl=es-la"><img src="../imagenes/inst.png"></a>
 			</div>
-		</footer>
+		</footer> -->
 	</div>
 </body>
 </html>
