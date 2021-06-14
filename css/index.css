@@ -219,6 +219,22 @@ margin:auto;
     min-height: 1px;
     padding-left: 10px;
     padding-right: 10px;
-	margin-left: 100px;
+	margin-left: 120px;
+
+}
+
+.sabpres{
+	margin-top: 160px;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+
+.lista{
+    position: relative;
+    float: center;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 560px;
+    padding-right: 560px;
 
 }
