@@ -39,8 +39,9 @@ header nav ul li {
 	position: relative;
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
 	background:#E6344A;
+	color:#fff;
 }
 
 header nav ul li a {
@@ -62,7 +63,7 @@ header nav ul li .children {
 	display: none;
 	background:#011826;
 	position: absolute;
-	width: 150%;
+	/*width: 150%;*/
 	z-index:1000;
 }
 
